@@ -1,0 +1,7 @@
+b score`___lldb_unnamed_function1$$score
+c
+b `$rip+36`
+c
+p *(int*)(`$rbp`-0x8) = 42
+c
+exit
